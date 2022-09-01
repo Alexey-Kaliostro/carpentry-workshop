@@ -8,9 +8,10 @@
 
 }
 
-
-body {
-    
-    background-color: var(--background-main-color);
+.user-geo-list li {
     color: var(--text-main-color);
+}
+
+.geo-list-item-note {
+    color: var(--text-secondary-color);
 }
