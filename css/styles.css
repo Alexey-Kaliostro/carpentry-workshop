@@ -7,7 +7,14 @@
   --text-logo-color: #000000;
 }
 
-.user-geo-list li {
+body {
+  color: var(--text-main-color);
+}
+
+/* header  before-nav*/
+
+.user-geo-list-item,
+.user-geo-list-item a {
   color: var(--text-main-color);
 }
 
@@ -15,9 +22,27 @@
   color: var(--text-secondary-color);
 }
 
-nav ul a {
+.call-request button {
+  color: var(--text-main-color);
+  background-color: var(--background-main-color);
+}
+
+/* header nav*/
+
+.nav-item a {
+  color: var(--text-main-color)
+}
+
+
+.cost-of-goods {
   color: var(--text-main-color);
 }
+
+.basket {
+  color: var(--text-secondary-color);
+};
+
+/* hero */
 
 h1 {
   color: var(--text-main-color);
@@ -27,6 +52,5 @@ h1 {
   color: var(--text-secondary-color);
 }
 
-.vidio-descr {
-    color: var(--text-main-color);
-}
+
+
