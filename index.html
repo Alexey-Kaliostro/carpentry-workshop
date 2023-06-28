@@ -75,7 +75,7 @@
               <br />
               <span>из слэбов редких пород древесины</span>
             </h1>
-
+            <span class="design-decor">Design</span>
             <p class="hero-description">
               Подоберите все необходимое для оформления завершенного, гармоничного, стильного и
               уютного интерьера своей квартиры или дома в одном месте.
@@ -218,7 +218,7 @@
         <p>Какой формы должен быть стол?</p>
         <ul>
           <li>
-            <img src="./img/river-tabel-small.jpg" alt="" />
+            <img src="./img/river-tabel-small.jpg" alt="" width="350"/>
             <p>Прямоугольным</p>
             <p>
               Подоберите все необходимое для оформления завершенного, гармоничного, стильного и
@@ -226,7 +226,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/black-and-white-table.jpg" alt="" />
+            <img src="./img/black-and-white-table.jpg" alt="" width="350"/>
             <p>Квадратным</p>
             <p>
               Подоберите все необходимое для оформления завершенного, гармоничного, стильного и
@@ -234,7 +234,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/black-and-white-round-table.jpg" alt="" />
+            <img src="./img/black-and-white-round-table.jpg" alt="" width="350"/>
             <p>Круглым</p>
             <p>
               Подоберите все необходимое для оформления завершенного, гармоничного, стильного и
@@ -242,10 +242,10 @@
             </p>
           </li>
         </ul>
-        <button type="button">Следующий вопрос</button>
+        <button type="button" class="nex-question-button">Следующий вопрос</button>
       </section>
       <div>
-        <img src="./img/cut-log.jpg" alt="" />
+        <img src="./img/cut-log.jpg" alt="" width="1440"/>
       </div>
       <section>
         <h2>Реализованные проекты для бизнеса и частных клиентов</h2>
@@ -301,19 +301,21 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="place-your-order">
         <img src="./img/living-room-sketch.jpg" alt="" />
         <h2>Реализуем стол под ваш дизайн проект</h2>
+        <span class="design-decor">Design</span>
         <p>
           Подоберите все необходимое для оформления завершенного, гармоничного, стильного и уютного
           интерьера своей квартиры или дома в одном месте.
         </p>
-        <button type="button">Оставить заявку</button>
+        <button type="button" class="submit-application">Оставить заявку</button>
         <img src="./img/living-room-table.jpg" alt="" />
       </section>
-      <section>
-        <div>1/4</div>
+      <section class="our-team">
+        
         <h2>Команда настоящих профеесионалов</h2>
+        <div>1/4</div>
         <img src="./img/andrey-ivanov.jpg" alt="" />
         <h3>Андрей Иванов</h3>
         <p>
@@ -323,31 +325,35 @@
         <img src="./img/move-left-arrow.svg" alt="" />
         <img src="./img/move-right-arrow.svg" alt="" />
       </section>
-      <section>
-        <h2>О НАШЕМ ПРОИЗВОДСТВЕ</h2>
-        <p>Производство эксклюзивной мебели из редких пород дерева</p>
+
+
+      <section class="our-workshop">
+        <p class="about-workshop">о нашем производстве</p>
+        <h2>Производство эксклюзивной мебели из редких пород дерева</h2>
+        <span class="decorative-text">Production</span>
         <img src="./img/move-left-arrow.svg" alt="" />
         <img src="./img/workshop.jpg" alt="" />
         <img src="./img/move-right-arrow.svg" alt="" />
         <img src="./img/triangular-table.jpg" alt="" />
         <img src="./img/countertop.jpg" alt="" />
         <p>Используемые материалы для производства</p>
-        <p>
+        <span class="decorative-text">Materials</span>
+        <p class="secondary-color-text">
           Подоберите все необходимое для оформления завершенного, гармоничного, стильного и уютного
           интерьера своей квартиры или дома в одном месте.
         </p>
         <ul>
           <li>
-            <a href="#">ДРЕВЕСИНА</a>
+            <a href="#" class="active-element">Древесина</a>
           </li>
           <li>
-            <a href="#">РЕКА</a>
+            <a href="#" class="element">Река</a>
           </li>
           <li>
-            <a href="#">Покрытие</a>
+            <a href="#" class="element">Покрытие</a>
           </li>
           <li>
-            <a href="#">Подстолье</a>
+            <a href="#" class="element">Подстолье</a>
           </li>
         </ul>
         <img src="./img/countertop-2.jpg" alt="" />
@@ -359,12 +365,13 @@
         <img src="./img/move-left-arrow.svg" alt="" />
         <img src="./img/move-right-arrow.svg" alt="" />
       </section>
-      <section>
+      <section class="work-procedures">
         <h2>Как мы работаем</h2>
         <ol>
           <li>
-            <p>Расчет изделия</p>
-            <p>
+            <span class="procedure-number">01</span>
+            <p class="procedure-type">Расчет изделия</p>
+            <p class="procedure-descr">
               Подоберите все необходимое для оформления завершенного, гармоничного, стильного и
               уютного интерьера своей квартиры или дома в одном месте.
             </p>
@@ -408,7 +415,10 @@
       </section>
     </main>
     <footer>
-      <div>map</div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4237.674772835289!2d37.55743889376944!3d55.76145639804026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43ddd3acd7a0ffc5%3A0x33533f12b63cef3d!2sHendrix%20Studio%20Rehearsal!5e0!3m2!1sen!2slv!4v1687977710053!5m2!1sen!2slv"
+        width="1440" height="445" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div><p>Посетите наш шоурум</p></div>
     </footer>
   </body>

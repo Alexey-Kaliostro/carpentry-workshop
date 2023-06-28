@@ -90,3 +90,53 @@ h1 {
   height: 4px;
   background-color: var(--counter-inactive-item-color);
 }
+
+.nex-question-button {
+  color: var(--text-main-color);
+    background-color: var(--background-main-color);
+
+}
+
+/* place-your-order */
+
+.design-decor {
+  color: var(--text-decoration-color);
+}
+
+.place-your-order p {
+  color: var(--text-secondary-color);
+}
+
+.submit-application {
+  color: var(--text-main-color);
+  background-color: var(--background-main-color);
+}
+
+/* our-workshop */
+
+.about-workshop {
+  color: var(--text-secondary-color);
+}
+
+.decorative-text {
+  color: var(--text-decoration-color);
+}
+
+.secondary-color-text {
+  color: var(--text-secondary-color);
+}
+
+.active-element {
+  color: var(--text-main-color);
+}
+
+.element {
+  color: var(--text-secondary-color);
+}
+
+/* work-procedures */
+
+.procedure-number {
+  color: var(--counter-text-color);
+}
+
